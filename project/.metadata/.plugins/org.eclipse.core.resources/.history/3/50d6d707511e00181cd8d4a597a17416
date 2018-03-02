@@ -1,0 +1,8 @@
+<html>
+	<head>
+		<title>Error Delete Student</title>
+	</head>
+	<body>
+		<h3 th:text="'NPM '+${npm.get()}+' tidak ditemukan. Proses delete dibatalkan'">Student NPM</h3>
+	</body>
+</html>

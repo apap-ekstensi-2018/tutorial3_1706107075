@@ -1,0 +1,8 @@
+<html>
+	<head>
+		<title>Delete Student by NPM</title>
+	</head>
+	<body>
+		<h3 th:text="'Data Student dengan NPM '+${npm.get()}+' berhasil dihapus'">Student NPM</h3>
+	</body>
+</html>
